@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>BC Copenhagen</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>BC Copenhagen</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.680555982149-07686mcfmh9qie85jdl79q1aosiakmhj</string>
+                <string>fb2341626082892581</string>
+            </array>
+        </dict>
+
+        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>bccopenhagen.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>bccopenhagen</string>
+        </array>
+        </dict>
+    </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+
+    <key>FacebookAppID</key>
+    <string>2341626082892581</string>
+    <key>FacebookDisplayName</key>
+    <string>BC Copenhagen</string>
+
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>NSCameraUsageDescription</key>
+    <string>To enhance your experience, BC Copenhagen requires access to your camera for features like augmented reality navigation and event check-ins. Rest assured, your photos and videos remain private and are not shared without your consent.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>Granting BC Copenhagen access to your device&#39;s storage allows you to save and view event photos, maps, and other important information offline. Your personal files are secure, and the app will only access the necessary folders.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>BC Copenhagen needs access to your location to provide accurate information about nearby events, services, and weather updates. Your location data will only be used within the app and will not be shared with third parties.</string>
+	<key>PermissionGroupNotification</key>
+    <string>Stay updated with the latest events and important announcements by enabling push notifications from BC Copenhagen. We promise to only send you relevant information and will never spam your device with unnecessary alerts.</string>
+	<key>NSContactsUsageDescription</key>
+    <string>BC Copenhagen needs access to your contacts to make it easier for you to connect with friends and fellow event attendees. We respect your privacy and will only access this information with your explicit permission.</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>BC Copenhagen requests access to your device's microphone to enable voice commands and enhance your experience during live events. We respect your privacy and assure you that your audio data will not be stored or shared without your consent.</string>
+	<key>NSCalendarsUsageDescription</key>
+    <string>To help you plan and organize your schedule effectively, BC Copenhagen requires access to your device's calendar. This enables seamless integration of event dates, reminders, and personalized recommendations. Your calendar events remain private and are not shared outside the app.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>For a more interactive experience at BC Copenhagen events, we request Bluetooth access to facilitate seamless connections with event peripherals and devices. Rest assured, your Bluetooth data will only be used for event-related activities and will not be shared externally.</string>
+	<key>NSFaceIDUsageDescription</key>
+    <string>Enable biometric authentication for a secure and convenient login experience with BC Copenhagen. Your biometric data, such as fingerprints or facial recognition, is securely stored on your device and will not be accessed or stored by the app servers. Your privacy and security are our top priorities.</string>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fbapi20130214</string>
+      <string>fbapi20130410</string>
+      <string>fbapi20130702</string>
+      <string>fbapi20131010</string>
+      <string>fbapi20131219</string>
+      <string>fbapi20140410</string>
+      <string>fbapi20140116</string>
+      <string>fbapi20150313</string>
+      <string>fbapi20150629</string>
+      <string>fbapi20160328</string>
+      <string>fbauth</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+      <string>comgooglemaps</string>
+      <string>baidumap</string>
+      <string>iosamap</string>
+      <string>waze</string>
+      <string>yandexmaps</string>
+      <string>yandexnavi</string>
+      <string>citymapper</string>
+      <string>mapswithme</string>
+      <string>osmandmaps</string>
+      <string>dgis</string>
+      <string>qqmap</string>
+      <string>here-location</string>
+
+    </array>
+
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
+</dict>
+</plist>

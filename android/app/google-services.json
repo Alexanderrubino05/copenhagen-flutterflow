@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "680555982149",
+    "project_id": "bc-copenhagen",
+    "storage_bucket": "bc-copenhagen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680555982149:android:be608e55126a96a000222c",
+        "android_client_info": {
+          "package_name": "com.mycompany.bccopenhagen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680555982149-jm3914t1fg8q3qsb51e4dmuh8m4gr6dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.bccopenhagen",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "680555982149-ncd2b7fd72c9al8oklns6hpfo7u7h6c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.bccopenhagen",
+            "certificate_hash": "92fa860c2245bf20b348d559356c9e18f58ca962"
+          }
+        },
+        {
+          "client_id": "680555982149-n64qgkmntuehlatsoiud9b819orpdsqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqGxxq8PPKa4F8m0s9DDADVLpM-iXowaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680555982149-n64qgkmntuehlatsoiud9b819orpdsqb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "680555982149-07686mcfmh9qie85jdl79q1aosiakmhj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.bccopenhagen"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680555982149:android:676cf61a64fa62b700222c",
+        "android_client_info": {
+          "package_name": "com.mycompany.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680555982149-lqcb4cg2t8caqn7akq1h1e50k2j4qjsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.test",
+            "certificate_hash": "92fa860c2245bf20b348d559356c9e18f58ca962"
+          }
+        },
+        {
+          "client_id": "680555982149-n64qgkmntuehlatsoiud9b819orpdsqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqGxxq8PPKa4F8m0s9DDADVLpM-iXowaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680555982149-n64qgkmntuehlatsoiud9b819orpdsqb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "680555982149-07686mcfmh9qie85jdl79q1aosiakmhj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.bccopenhagen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
