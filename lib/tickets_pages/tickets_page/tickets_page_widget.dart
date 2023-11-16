@@ -315,7 +315,7 @@ class _TicketsPageWidgetState extends State<TicketsPageWidget>
                                           alignment:
                                               AlignmentDirectional(-1.00, 0.00),
                                           child: Text(
-                                            'Få gratis indgang og bar til alle kampe plus 4 gæster.',
+                                            'Få gratis indgang og bar til alle kampe plus 4 gæster hele sæsonen.',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyLarge
                                                 .override(
