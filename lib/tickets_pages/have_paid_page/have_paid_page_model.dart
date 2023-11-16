@@ -34,10 +34,6 @@ class HavePaidPageModel extends FlutterFlowModel<HavePaidPageWidget> {
   ApiCallResponse? autoApiResult;
   // Stores action output result for [Backend Call - API (capturePayment)] action in HavePaidPage widget.
   ApiCallResponse? captureAmountAPI;
-  // Stores action output result for [Backend Call - API (fetchPayment)] action in Button widget.
-  ApiCallResponse? apiResultb3f;
-  // Stores action output result for [Backend Call - API (capturePayment)] action in Button widget.
-  ApiCallResponse? apiResultjnm;
   // Stores action output result for [Backend Call - API (cancelPayment)] action in Button widget.
   ApiCallResponse? apiResult1wa;
 
