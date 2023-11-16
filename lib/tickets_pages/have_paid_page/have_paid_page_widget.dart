@@ -59,7 +59,10 @@ class _HavePaidPageWidgetState extends State<HavePaidPageWidget> {
     // On page load action.
     SchedulerBinding.instance.addPostFrameCallback((_) async {
       _model.createPayment = await CreatePaymentCall.call(
-        amount: widget.amount,
+        amount: valueOrDefault<int>(
+          widget.amountOfTickets! * widget.amount!,
+          7500,
+        ),
         description:
             'Køb ${widget.amountOfTickets?.toString()} billet(ter)  til ${FFAppState().teams[widget.homeTeam!].name} vs ${FFAppState().teams[widget.awayTeam!].name}',
         referenceString: random_data.randomString(

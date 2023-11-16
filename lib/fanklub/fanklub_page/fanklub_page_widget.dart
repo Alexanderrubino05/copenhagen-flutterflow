@@ -363,7 +363,7 @@ class _FanklubPageWidgetState extends State<FanklubPageWidget> {
                                         ],
                                       ),
                                       Text(
-                                        'Du modtager din T-shirt og drikkevarer til næste hjemmekamp. sjdoif osdjf jsdojf sdjf',
+                                        'Du modtager din T-shirt og drikkevarer til næste hjemmekamp.',
                                         textAlign: TextAlign.center,
                                         style: FlutterFlowTheme.of(context)
                                             .labelSmall,
